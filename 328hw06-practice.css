@@ -1,0 +1,84 @@
+/* Christopher Velazquez 3/17/19 */
+/* submit button is already centered? not sure if it wasn't supposed to be already?. */
+/* WS3 validator link is broken on my end, i dont want to mess with it as intructions say
+ not to. */
+body{
+	color: blue;
+}
+
+h1 {
+	font-style: italic;
+	font-family: serif;
+	font-size: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#os_div {
+	padding: 0.5em;
+}
+
+h2{
+	border: thin solid black;
+}
+
+#reg_div{
+	display: grid;
+}
+
+#os_div{
+	display: grid;
+}
+
+#os_windows{
+	grid-column-start: 1;
+	gri-column-end: 1;
+	grid-row-start:1;
+	grid-row-end: 1;
+}
+label[for="os_windows"]{
+	grid-column-start: 1;
+	gri-column-end: 2;
+	grid-row-start:1;
+	grid-row-end: 1;
+	padding: 0 0 0 1em;
+}
+
+#os_mac{
+	grid-column-start: 1;
+	gri-column-end: 2;
+	grid-row-start:2;
+	grid-row-end: 2;
+}
+
+label[for="os_mac"]{
+	grid-column-start: 1;
+	gri-column-end: 2;
+	grid-row-start:2;
+	grid-row-end: 2;
+	padding: 0 0 0 1em;
+}
+
+#os_linux, label[for="os_linux"]{
+	grid-column-start: 1;
+	gri-column-end: 2;
+	grid-row-start:3;
+	grid-row-end: 3;
+}
+
+label[for="os_linux"]{
+	padding: 0 0 0 1em;
+}
+
+#os_other, label[for="os_other"]{
+	grid-column-start: 1;
+	gri-column-end: 2;
+	grid-row-start:4;
+	grid-row-end: 4;
+}
+
+label[for="os_other"]{
+	padding: 0 0 0 1em;
+}

@@ -1,0 +1,21 @@
+Christopher Velazquez
+2/24/19
+
+1-A:
+
+<link href="lookity.css" type="text/css" rel="stylesheet" />
+
+
+1-B:
+
+head
+
+1-C:
+
+after
+
+1-D:
+em %
+
+1-E:
+no

@@ -1,0 +1,14 @@
+Christopher Velazquez
+4/28/19
+
+Three important take aways:
+
+1.) strip tags
+2.) users like readbility, no dark text on dark back ground
+3.) search functions are useful to help usedr navigate
+
+Power point take aways:
+
+1.) Users dont read
+2.) website should give an indication for when something is attempting to load
+3.) avoid alerts unless necessary.

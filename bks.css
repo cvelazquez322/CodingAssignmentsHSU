@@ -1,0 +1,27 @@
+/* Christopher Velazquez 3/17/19 */
+
+body{
+	background-color: pink;
+}
+
+h1{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
+h2{
+	margin: 0.05em
+}
+
+p{
+	margin: 5em;
+}
+form{
+	text-align: center;
+	color: blue;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;	
+}

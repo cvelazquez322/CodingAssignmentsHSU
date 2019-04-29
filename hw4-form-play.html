@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+    by: Christopher Velazquez
+    last modified: 2/24/19
+
+    you can run this using the URL:
+	http://nrs-projects.humboldt.edu/~civ5/328hw4/hw4-form-play.html
+
+-->
+
+<head>
+    <title> Problem 4 </title>
+    <meta charset="utf-8" />
+
+
+
+    <link href="http://nrs-projects.humboldt.edu/~st10/styles/normalize.css"
+          type="text/css" rel="stylesheet" />
+		  
+	<link href="http://nrs-projects.humboldt.edu/~civ5/328hw_4/stuff.css"
+          type="text/css" rel="stylesheet" />	  
+</head>
+
+<body>
+	<h1> Christopher Velazquez CS 328 <h1>
+	
+	<fieldset>
+	<form action = "https://www.reddit.com/r/all/" method = "post">
+			<label for="user-name"> User-Name: </label>
+			<input type="text" id="user-name" name="user-name"/>
+		
+	</form>
+	</fieldset>
+	
+	<br/>
+	
+		<fieldset>
+		<legend> What time do you go to sleep? </legend>
+		
+			<label> 
+				<input type="checkbox" name="8 pm" /> 8pm </label> <br/> 
+			<label>
+				<input type = "checkbox" checked ="checked" name ="9 pm" /> 9 pm </label> <br/>         
+         	<label> 
+				<input type="checkbox" name ="never" /> never
+				  </label> <br/>
+				
+    </fieldset>
+	
+	<br/>
+	
+		<fieldset>
+		<legend> What time do you wake up? </legend>
+		
+			<label> 
+				<input type="radio" name="time" value="6 am" />
+				 6 am</label> <br/>
+			<label>
+				<input type = "radio" name ="time" checked ="checked" 
+                       value ="7 am" />
+                 7 am </label> <br/>         
+         	<label> 
+				<input type="radio" name ="time" value ="8 am" /> 
+				8 am  </label> <br/>
+			
+    </fieldset>
+	
+	<br/>
+	
+		<fieldset>
+		<label> how would you rate your sleep schedule?
+			<select name= "Sleep State">
+				<option value="Well Rested" selected="selected"> California </option>
+				<option value="Poor">  Oregon </option>
+				<option value="Decent"> Nevada </option>
+			</select>
+		</label>
+	</fieldset>
+	
+	<br/>
+	
+		<label> Any other comments about your sleep schedule?
+		<textarea name="intro" rows="5" cols="15" required="required">
+			start typing here
+		</textarea>
+	</label>
+	</form>
+	
+	<br/>
+	
+	<label> how many hours total do you sleep per week?
+	<input type="number" name="put some number here" >
+	</label>
+	
+	<label> You can trust me, tell me a secret:
+		<input type="password" name="secret_word"/>
+	</label>
+	
+	
+    <hr />
+
+    <p>
+        Validate by pasting .xhtml copy's URL into<br />
+        <a href="https://html5.validator.nu/">
+            https://html5.validator.nu/
+        </a>
+    </p>
+
+    <p>
+        <a href=
+           "http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+                 alt="Valid CSS3!" height="31" width="88" />
+        </a>
+    </p>
+
+</body>
+</html>

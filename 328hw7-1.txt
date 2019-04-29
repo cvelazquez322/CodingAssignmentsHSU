@@ -1,0 +1,24 @@
+Christopher Velazquez
+3/31/19
+
+1a
+<?php
+	echo "Hello world";
+?>
+
+1b
+<?=
+	echo "Hello world";
+?>
+
+1c
+on their own line
+
+1D
+within html5 or document content
+
+1E
+on their own lines, lined up with the beginning of the control structures first line.
+
+1F
+strip_tags($someVar);

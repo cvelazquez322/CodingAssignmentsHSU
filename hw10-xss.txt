@@ -1,0 +1,14 @@
+Christopher Velazquez
+4/28/19
+
+Three important take aways:
+
+1.) Each of the different types of data fields need slightly different security rules.
+2.) HTML entinty encoding is good for untrusted data in the body. Doesnt work if inside a <script> tag.
+3.) never accept javascript from an untrusted source.
+
+Why:
+
+1.) Important because if you handled all fields with the same security measures, it wouldn't work.
+2.) running html code inside of a script tag would work for a hacker, HTML entity encode doesnt apply to <script>
+3.) javascript parameter "callback" 

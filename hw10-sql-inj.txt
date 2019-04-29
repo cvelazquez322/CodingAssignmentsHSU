@@ -1,0 +1,14 @@
+Christopher Velazquez
+4/28/19
+
+Three important take aways:
+
+1.) attackers can put ' to get a error unique to SQL
+2.) attackers can use anything' or blah = 'bleh
+3.) attackers can attempt to guess by simply filling in guesses
+
+Why:
+
+1.) Once the attackers know SQL is being used, they know to employ SQL injections as user input is not being properly handled
+2.) due to the use of quotes attackers are able to inject their own SQL code by ending the first quote and leaving open their second one.
+3.)	these guesses will eventually learn the names of table names, and their variables.
