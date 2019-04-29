@@ -1,0 +1,14 @@
+Christopher Velazquez
+
+2-a:
+only use on outermost select, and indented.
+
+2-b:
+only use when i have good reason.
+
+2-c:
+indent by at least 3 spaces (except when the select is unioon, intersect, or minus)
+
+2-d:
+sub-select argument is expected to include correlation condition.
+sub-select argument is expected to projecta a literal.

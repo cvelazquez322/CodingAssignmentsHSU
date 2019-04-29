@@ -1,0 +1,109 @@
+Christopher Velazquez
+
+2-1
+Choc_Bar_Type(BAR_ID, bar_brand, bar_name, bar_cacao_pct)
+
+
+Choc_Bar_Size(BAR_ID, BAR_SIZE) 
+foreign key (BAR_ID)  refereces Choc_Bar_Type
+
+
+
+2-2
+Reg(STU_ID, COURSE_SECT_ID, red_date, final_grade)
+	foreign key (COURSE_SECT_ID) references Course
+	foreign key (STU_ID) references Student
+	
+Course(COURSE_SECT_ID, course_name, course_num, course_num_units)
+
+Student(STU_ID, Stu_lname, Stu_primary_email)
+
+
+2-3
+Symphony(SYMPH_ID, MUSIC_PERIOD_ID, symph_title, composer_ID, symph_year_composed) 
+foreign key(composer_id) references composer
+foreign key(music_period_id) references music_period
+
+Music_Period(MUSIC_PERIOD_ID, Music_period_name, music_period_year_begins)
+
+2-4 Part 1: Volunteer_Record(VOL_NUM, PROJ_NUM, vol_lname, vol_fname, proj_name,
+				total_hrs_worked, task_type_code, task_type_descr)
+2-4 Part 2:
+volunteer(VOL_NUM, vol_lname, vol_fname)
+
+project(PROJ_NUM, proj_name)
+
+volunteer_Record(VOL_NUM, PROJ_NUM, task_type_code, task_type_desc, total_hours)
+foreign key (vol_num) references volunteer
+foreign key (proj_num) references project
+
+2-4 Part 3:
+ 
+volunteer(VOL_NUM, vol_lname, vol_fname)
+
+project(PROJ_NUM, proj_name)
+
+volunteer_Record(VOL_NUM, PROJ_NUM, task_type_code, task_type_desc, total_hours)
+
+2-5 part 1:
+
+R1(A,B,C,D, e, f, h, i, j, k, l, m, n, o)
+
+G_Table(G, A, B, C, D)
+foreign key (A) references R1
+foreign key (B) references R1
+foreign key (C) references R1
+foreign key (D) references R1
+
+2-5 part 2:
+
+R1(A,B,C,D, e, f, h, i, j, k, l, m)
+foreign key (A) refereces A_Clever_combO_name
+foreign key (D) references Da_Named_table
+
+
+G_Table(G, A, B, C, D)
+foreign key (A) references R1
+foreign key (B) references R1
+foreign key (C) references R1
+foreign key (D) references R1
+
+A_Clever_combO_name(A, C, o)
+
+Da_Named_table(D, n)
+
+2-5 part 3:
+
+R1(A,B,C,D, e, f, h, i, j )
+foreign key (A) refereces A_Clever_combO_name
+foreign key (D) references Da_Named_table
+foreign key (e) references EFficient_Table
+foreign key (f) references EFficient_Table
+foreign key (h) references Ha_Moc
+
+G_Table(G, A, B, C, D)
+foreign key (A) references R1
+foreign key (B) references R1
+foreign key (C) references R1
+foreign key (D) references R1
+
+A_Clever_combO_name(A, C, o)
+
+Da_Named_table(D, n)
+
+EFficient_Table(E, F, k, l)
+
+Ha_Moc(H, m)
+
+
+
+
+
+
+
+
+
+
+
+
+

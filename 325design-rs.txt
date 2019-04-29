@@ -1,0 +1,22 @@
+Christopher Velazquez
+11/11/18
+CS 325 - fall 2018
+
+
+Dog(DOG_ID, dog_name, act_of_aggression, owner_name, date_checked_in, neutered);
+foreign key (owner_name) references Owner
+
+
+Owner(CUST_ID, owner_name, dog_name, phone_num, cust_tier);
+foreign key (dog_name) references Dog
+
+Employee(EMP_ID, emp_name, training, house_sitting, class_type);
+
+Training(CLASS_NUM, EMP_ID, DOG_ID, date_of, class_type);
+foreign key (EMP_ID) references  Employee
+foreign key (DOG_ID) references Dog
+
+Volunteer(VOL_ID, name, emp_id)
+foreign key (emp_id) references Employee;
+
+
